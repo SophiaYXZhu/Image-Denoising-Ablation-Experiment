@@ -8,7 +8,7 @@ Access the model through the arch_unet.py file.
 Generate sample data using dataset_tool_raw.py on the raw SIDD dataset, which can be downloaded at https://www.eecs.yorku.ca/~kamel/sidd/.
 
 # Training
-Train your model through the train_sidd_b2u_n2n_ema_hav.py or train_sidd_b2u_n2n_ema_sav.py files with different mask shapes.
+Train your model through the train_sidd_b2u_n2n_ema_hav.py or train_sidd_b2u_n2n_ema_sav.py files with different mask shapes. Noises are Gaussian by default.
 
 # Testing
 Test your model through the test_sidd.py file.
